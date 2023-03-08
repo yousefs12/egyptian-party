@@ -1,0 +1,43 @@
+.overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Header Section */
+Header {
+    height: 660px;
+    background: url(../imgs/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+}
+
+/* Countdown Section */
+#countdown {
+    height: 330px;
+    background: url(../imgs/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+}
+
+/* Contact Section */
+.socialLink {
+    width: 40px;
+    height: 40px;
+}
+
+.socialLink:hover {
+    color: white !important;
+    background-color: #D62E33;
+}
+
+/* Side Nav Section */
+#navList i:hover,
+#navList a:hover{
+    color: firebrick !important;
+    transition: all 0.5s;
+}
